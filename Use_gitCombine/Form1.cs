@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Use_gitCombine
 {
@@ -15,6 +16,12 @@ namespace Use_gitCombine
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            line li= new line();
+            li.Show();
         }
     }
 }
