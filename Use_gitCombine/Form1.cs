@@ -16,5 +16,11 @@ namespace Use_gitCombine
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            poly po = new poly();
+            po.Show();
+        }
     }
 }
